@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #HotelManagement Bill Generation COde using Class Object and DB Connectivity.
 import pyodbc
 
@@ -72,7 +72,7 @@ h.take_order()
 h.generate_bill()
 h.close()
 
-=======
+
 #HotelManagement Bill Generation COde using Class Object and DB Connectivity.
 import pyodbc
 
@@ -146,4 +146,3 @@ h.take_order()
 h.generate_bill()
 h.close()
 
->>>>>>> 677fb79 (updated file)
