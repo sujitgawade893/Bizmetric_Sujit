@@ -76,9 +76,9 @@ Decimal('4.70'), 'Board Certified', True, 'Diabetes specialist'),('D03', 'Michae
 #         print(s[2],"Availability status : ",s[16])
 
 #6️⃣ ORDER BY Fees ASC
-# result = sorted(doctors, key=lambda x: x[8])
-# for d in result:
-#     print(d[1], d[8])
+result = sorted(doctors, key=lambda x: x[8])
+for d in result:
+    print(d[1], d[8])
 
 
 # 7️⃣ ORDER BY Experience DESC
