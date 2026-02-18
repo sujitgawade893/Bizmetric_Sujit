@@ -76,9 +76,31 @@ Decimal('4.70'), 'Board Certified', True, 'Diabetes specialist'),('D03', 'Michae
 #         print(s[2],"Availability status : ",s[16])
 
 #6️⃣ ORDER BY Fees ASC
-result = sorted(doctors, key=lambda x: x[8])
-for d in result:
-    print(d[1], d[8])
+# result = sorted(doctors, key=lambda x: x[8])
+# for d in result:
+#     print(d[1], d[8])
 
 
 # 7️⃣ ORDER BY Experience DESC
+# result = sorted(doctors, key=lambda x: x[7], reverse=True)
+# for d in result:
+#     print(d[1], d[7])
+
+#8️⃣ COUNT Doctors
+#print(len(doctors))
+
+#9️⃣ COUNT Doctors WHERE Department='Neurology'
+# count = 0
+# for d in doctors:
+#     if d[3] == 'Neurology':
+#         count += 1
+#print(count)
+
+#🔟 AVG Fees
+total = 0
+for d in doctors:
+    total += d[8]
+
+avg = total / len(doctors)
+print(avg)
+
