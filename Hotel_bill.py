@@ -1,5 +1,5 @@
 
-#HotelManagement Bill Generation COde using Class Object and DB Connectivity.
+#HotelManagement Bill Generation Code using Class Object and DB Connectivity.
 import pyodbc
 
 class Hotel:
